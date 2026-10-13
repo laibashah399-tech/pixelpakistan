@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - PixelPakistan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+</head>
+<!-- Floating WhatsApp -->
+  <a href="https://wa.me/92YOUR_NUMBER_HERE" target="_blank"
+     class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 w-16 h-16 rounded-full flex items-center justify-center shadow-2xl z-50 text-3xl transition-all">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+<body class="bg-zinc-950 text-zinc-100">
+  <!-- Same Navbar (copy from index.html) -->
+
+  <section class="pt-28 pb-20">
+    <div class="max-w-2xl mx-auto px-6">
+      <h1 class="text-5xl font-bold text-center mb-4">Get Your Free Strategy Call</h1>
+      <p class="text-center text-zinc-400 mb-12">Fill the form and our team will contact you within 24 hours</p>
+
+      <!-- Real Form (Formspree) -->
+      <form action="https://formspree.io/f/YOUR_CODE_HERE" method="POST" class="space-y-8">
+        <input type="text" name="name" placeholder="Full Name" required
+               class="w-full bg-zinc-900 border border-zinc-700 focus:border-emerald-500 rounded-2xl px-6 py-5 outline-none">
+        
+        <input type="tel" name="phone" placeholder="Phone / WhatsApp" required
+               class="w-full bg-zinc-900 border border-zinc-700 focus:border-emerald-500 rounded-2xl px-6 py-5 outline-none">
+        
+        <input type="email" name="email" placeholder="Email Address" required
+               class="w-full bg-zinc-900 border border-zinc-700 focus:border-emerald-500 rounded-2xl px-6 py-5 outline-none">
+        
+        <textarea name="message" rows="5" placeholder="Tell us about your project..." required
+                  class="w-full bg-zinc-900 border border-zinc-700 focus:border-emerald-500 rounded-3xl px-6 py-5 outline-none"></textarea>
+        
+        <button type="submit"
+                class="w-full bg-emerald-600 hover:bg-emerald-500 py-6 text-xl font-bold rounded-3xl transition-all">
+          Submit & Get Free Strategy
+        </button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
